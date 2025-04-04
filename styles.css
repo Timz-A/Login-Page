@@ -15,3 +15,71 @@ body{
     margin: 0 auto;
     border-radius: 50%;
 }
+
+.input1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+}
+
+.input2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.input-field1{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.input-field2{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.input-field1::placeholder {
+      color: grey;
+      text-align: center;
+  }
+
+  .input-field2::placeholder {
+    color: grey;
+    text-align: center;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+}
+
+.checkbox-text{
+    color: beige;
+    font-weight: bolder;
+}
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.login-btn{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #5D8AA8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
